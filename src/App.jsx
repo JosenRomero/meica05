@@ -1,8 +1,13 @@
+import PlantContainer from './components/PlantContainer'
 
 const App = () => {
 
   return (
-    <div>App</div>
+    <>
+      <header>header</header>
+      <PlantContainer />
+      <footer>footer</footer>
+    </>
   )
   
 }
