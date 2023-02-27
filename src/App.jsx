@@ -1,5 +1,6 @@
 import Menu from './components/Menu'
 import PlantContainer from './components/PlantContainer'
+import Footer from './components/Footer'
 
 const App = () => {
 
@@ -7,7 +8,7 @@ const App = () => {
     <>
       <Menu />
       <PlantContainer />
-      <footer>footer</footer>
+      <Footer />
     </>
   )
   
