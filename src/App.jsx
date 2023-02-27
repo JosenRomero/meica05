@@ -1,10 +1,11 @@
+import Menu from './components/Menu'
 import PlantContainer from './components/PlantContainer'
 
 const App = () => {
 
   return (
     <>
-      <header>header</header>
+      <Menu />
       <PlantContainer />
       <footer>footer</footer>
     </>
