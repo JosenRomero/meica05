@@ -1,15 +1,9 @@
-import Menu from './components/Menu'
-import PlantContainer from './components/PlantContainer'
-import Footer from './components/Footer'
+import AppRouter from './routers/AppRouter'
 
 const App = () => {
 
   return (
-    <>
-      <Menu />
-      <PlantContainer />
-      <Footer />
-    </>
+    <AppRouter />
   )
   
 }
