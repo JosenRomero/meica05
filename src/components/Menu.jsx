@@ -9,6 +9,7 @@ const Menu = () => {
         <div className="flex gap-x-3">
           <ItemMenu to={"/"} text={"Inicio"} />
           <ItemMenu to={"about"} text={"Bio"} />
+          <ItemMenu  to={"hashtags"} text={"Hashtags"} />
         </div>
       </div>
     </nav>
