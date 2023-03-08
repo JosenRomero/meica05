@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import HomePage from '../pages/HomePage'
 import AboutPage from '../pages/AboutPage'
 import HashtagsPage from '../pages/HashtagsPage'
-import NotFoundPage from '../pages/NotFoundPage '
+import NotFoundPage from '../pages/NotFoundPage'
 
 const AppRouter = () => {
 
