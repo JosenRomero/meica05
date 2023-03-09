@@ -1,10 +1,10 @@
-import LinkTag from './LinkTag'
+import Credits from './Credits'
 
 const Footer = () => {
 
   return (
-    <footer className="text-white text-center text-base p-4">
-      <p>Built by <LinkTag to={"https://github.com/JosenRomero"} text={"José Romero"} />, background by <LinkTag to={"https://www.svgbackgrounds.com/"} text={"SVGBackgrounds.com"} /> </p>
+    <footer className="text-center p-4">
+      <Credits />
     </footer>
   )
 
