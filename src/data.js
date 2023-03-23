@@ -1,5 +1,5 @@
 export const infoBasic = [
-  "Una plantita que nacio en tu jardin",
+  "Una plantita que nació en tu jardín",
   "Edad: 18",
   "Cumpleaños: 7 de Mayo",
   "Altura: 160 cm",
@@ -19,7 +19,7 @@ export const likes = [
 
 export const dislikes = [
   "Preposiciones",
-  "Conjugación de verbo",
+  "Conjugación de verbos",
   "Kanjis",
   "Matemáticas",
   "Leer texto",
