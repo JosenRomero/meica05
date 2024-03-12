@@ -15,9 +15,9 @@ const Credits = () => {
         title={"Credits"}
       >
         <div className="text-slate-500 text-start mt-8 leading-7">
-          <p>Desarrollado por <LinkTag to={"https://github.com/JosenRomero"} text={"José Romero"} bgWhite={false} /></p>
-          <p>PNG por <LinkTag to={"https://twitter.com/PMasterM"} text={"@PMasterM"} bgWhite={false} /></p>
-          <p>Background por <LinkTag to={"https://www.svgbackgrounds.com/"} text={"SVGBackgrounds.com"} bgWhite={false} /></p>
+          <p>Desarrollado por <LinkTag to={"https://github.com/JosenRomero"} text={"José Romero"} /></p>
+          <p>PNG por <LinkTag to={"https://twitter.com/PMasterM"} text={"@PMasterM"} /></p>
+          <p>Background por <LinkTag to={"https://www.svgbackgrounds.com/"} text={"SVGBackgrounds.com"} /></p>
         </div>
       </Modal>
     </>

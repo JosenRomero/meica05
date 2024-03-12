@@ -1,8 +1,8 @@
 
-const LinkTag = ({to, text, className = "", bgWhite = true}) => {
+const LinkTag = ({to, text}) => {
 
   return (
-    <a className={`${bgWhite ? 'text-white' : 'text-zinc-500'} font-semibold ${bgWhite ? 'hover:text-white' : 'hover:text-zinc-500'} hover:underline ${className}`} href={to} target="_blank">{text}</a>
+    <a className={"text-zinc-500 font-semibold hover:text-zinc-500 hover:underline"} href={to} target="_blank">{text}</a>
   )
 
 }
