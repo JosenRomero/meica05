@@ -5,7 +5,7 @@ import TitleBox from '../components/TitleBox'
 const HashtagsPage = () => {
 
   return (
-    <div className="w-3/4 h-full text-zinc-500 mx-auto mt-20 leading-relaxed">
+    <div className="text-zinc-500 leading-relaxed">
       <div className="mb-5 flex gap-9 justify-center flex-wrap">
         <AttentionSeeker effect='wobble'>
           <div className="bg-white p-6 rounded-xl border border-green-200 shadow">
