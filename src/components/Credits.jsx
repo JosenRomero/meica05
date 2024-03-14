@@ -8,7 +8,7 @@ const Credits = () => {
 
   return (
     <>
-      <button className="text-white text-base hover:underline" onClick={openModal}>Credits</button>
+      <button className="text-slate-800 text-base hover:underline" onClick={openModal}>Credits</button>
       <Modal
         isOpen={isOpenModal} 
         closeModal={closeModal}
@@ -17,7 +17,6 @@ const Credits = () => {
         <div className="text-slate-500 text-start mt-8 leading-7">
           <p>Desarrollado por <LinkTag to={"https://github.com/JosenRomero"} text={"José Romero"} /></p>
           <p>PNG por <LinkTag to={"https://twitter.com/PMasterM"} text={"@PMasterM"} /></p>
-          <p>Background por <LinkTag to={"https://www.svgbackgrounds.com/"} text={"SVGBackgrounds.com"} /></p>
         </div>
       </Modal>
     </>
