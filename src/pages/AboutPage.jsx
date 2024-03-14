@@ -1,4 +1,4 @@
-import { Slide } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 import { infoBasic, likes, dislikes } from '../data.js'
 import ItemBox from '../components/ItemBox'
 
@@ -6,7 +6,7 @@ const AboutPage = () => {
 
   return (
     <div className="w-4/5 h-full text-zinc-500 mx-auto mt-20 leading-relaxed">
-      <Slide direction='down'>
+      <Fade delay={100}>
         <div className="mb-5 flex gap-9 justify-center flex-wrap">
           <ItemBox items={infoBasic} />
           <div className="flex gap-9 justify-center flex-wrap">
@@ -14,7 +14,7 @@ const AboutPage = () => {
             <ItemBox items={dislikes} title="Disgustos" />
           </div>
         </div>
-      </Slide>
+      </Fade>
     </div>
   )
 
