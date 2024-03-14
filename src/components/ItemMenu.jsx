@@ -5,8 +5,8 @@ const ItemMenu = ({ to, text }) => {
     <NavLink 
       className={({ isActive }) => 
         [
-          isActive ? "bg-stone-500 text-stone-100" : "bg-white text-slate-800",
-          "font-medium text-sm px-5 py-2.5 rounded-xl hover:bg-stone-500 hover:text-stone-100"
+          isActive ? "bg-green-600 text-green-100" : "bg-white text-slate-800",
+          "font-medium text-sm px-5 py-2.5 rounded-xl hover:bg-green-600 hover:text-green-100 border"
         ].join(" ")
       } 
       to={to}

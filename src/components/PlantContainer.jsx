@@ -10,7 +10,7 @@ const PlantContainer = () => {
       <Zoom>
         <img className="rounded-full border-white border-2 w-48 h-48" src={meica_img} alt={"meica"} />
       </Zoom>
-      <p className="text-white text-center text-3xl font-bold h-[40px]">
+      <p className="text-black text-center text-3xl font-bold h-[40px]">
         <Typewriter words={["Meica05", "vtuber", "plantita"]} loop={false} cursor={true} />
       </p>
       <SocialMedia />

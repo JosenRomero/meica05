@@ -7,7 +7,7 @@ const HashtagsPage = () => {
     <div className="w-3/4 h-full text-zinc-500 mx-auto mt-20 leading-relaxed">
       <div className="mb-5 flex gap-9 justify-center flex-wrap">
         <AttentionSeeker effect='wobble'>
-          <div className="bg-white p-5 rounded-xl">
+          <div className="bg-white p-6 rounded-xl border border-green-200 shadow">
             <h2 className="mb-5 text-center">Hashtags</h2>
             <p>General: <LinkTag to={"https://twitter.com/hashtag/Meica?src=hashtag_click"} text={"#Meica"} /></p>
             <p>Live: <LinkTag to={"https://twitter.com/hashtag/MeicaLive?src=hashtag_click"} text={"#MeicaLive"} /></p>
